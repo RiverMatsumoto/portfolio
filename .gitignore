@@ -1,0 +1,29 @@
+# Build output
+bin/
+obj/
+dist/
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+packages/
+
+# Blazor publish artifacts (if generated locally)
+wwwroot/_framework/
+wwwroot/_bin/
