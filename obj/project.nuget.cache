@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4UmD1yarIf0=",
+  "dgSpecHash": "kh9TmX3CEPE=",
   "success": true,
-  "projectFilePath": "/home/river/data/Portfolio/Portfolio.csproj",
+  "projectFilePath": "/mnt/data/Portfolio/Portfolio.csproj",
   "expectedPackageFiles": [
     "/home/river/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.3/microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512",
     "/home/river/.nuget/packages/microsoft.aspnetcore.authorization/10.0.3/microsoft.aspnetcore.authorization.10.0.3.nupkg.sha512",
@@ -13,7 +13,6 @@
     "/home/river/.nuget/packages/microsoft.aspnetcore.components.webassembly/10.0.3/microsoft.aspnetcore.components.webassembly.10.0.3.nupkg.sha512",
     "/home/river/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/10.0.3/microsoft.aspnetcore.components.webassembly.devserver.10.0.3.nupkg.sha512",
     "/home/river/.nuget/packages/microsoft.aspnetcore.metadata/10.0.3/microsoft.aspnetcore.metadata.10.0.3.nupkg.sha512",
-    "/home/river/.nuget/packages/microsoft.dotnet.hotreload.webassembly.browser/10.0.103/microsoft.dotnet.hotreload.webassembly.browser.10.0.103.nupkg.sha512",
     "/home/river/.nuget/packages/microsoft.extensions.configuration/10.0.3/microsoft.extensions.configuration.10.0.3.nupkg.sha512",
     "/home/river/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.3/microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
     "/home/river/.nuget/packages/microsoft.extensions.configuration.binder/10.0.3/microsoft.extensions.configuration.binder.10.0.3.nupkg.sha512",

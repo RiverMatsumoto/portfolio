@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/river/data/Portfolio/Portfolio.csproj": {}
+    "/mnt/data/Portfolio/Portfolio.csproj": {}
   },
   "projects": {
-    "/home/river/data/Portfolio/Portfolio.csproj": {
+    "/mnt/data/Portfolio/Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/river/data/Portfolio/Portfolio.csproj",
+        "projectUniqueName": "/mnt/data/Portfolio/Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "/home/river/data/Portfolio/Portfolio.csproj",
+        "projectPath": "/mnt/data/Portfolio/Portfolio.csproj",
         "packagesPath": "/home/river/.nuget/packages/",
-        "outputPath": "/home/river/data/Portfolio/obj/",
+        "outputPath": "/mnt/data/Portfolio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/river/.nuget/NuGet/NuGet.Config"
@@ -58,11 +58,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.3, )"
-            },
-            "Microsoft.DotNet.HotReload.WebAssembly.Browser": {
-              "target": "Package",
-              "version": "[10.0.103, )",
-              "autoReferenced": true
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
