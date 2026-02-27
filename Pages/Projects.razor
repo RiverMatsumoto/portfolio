@@ -1,10 +1,76 @@
 @page "/projects"
+@page "/my-projects"
 
-<h1>Projects</h1>
-<ul>
-  <li>
-    <b>Portfolio</b> — this site —
-    <a href="https://github.com/RiverMatsumoto/portfolio" target="_blank">repo</a>
-  </li>
-</ul>
-<p><a href="/">Home</a></p>
+<PageTitle>Projects</PageTitle>
+
+<section class="projects-page">
+  <header class="projects-header">
+    <h1>Projects</h1>
+    <p>Selected work from robotics, machine learning, and game development.</p>
+  </header>
+
+  <div class="projects-grid">
+    <article class="project-card">
+      <img src="images/projects/rover.png" alt="Teleoperated rover" class="project-image" />
+      <div class="project-content">
+        <h2>Teleoperated Rover</h2>
+        <p>
+          Built control software and data collection tools for a terramechanics research rover at UH Manoa's RoSE Lab.
+          Implemented serial/UART motor control in C/C++ and integrated ROS data logging.
+        </p>
+        <div class="project-tags">
+          <span>C/C++</span>
+          <span>ROS</span>
+          <span>Python</span>
+          <span>Robotics</span>
+        </div>
+        <p class="project-links">
+          <a href="https://github.com/ashtencodes/tvtr_control/tree/rpi" target="_blank">Repo</a>
+          <a href="https://github.com/ashtencodes/tvtr_control/tree/rpi/src/cr_control" target="_blank">Control Software</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="images/projects/machine_learning_smash.png" alt="Machine learning results chart" class="project-image" />
+      <div class="project-content">
+        <h2>Machine Learning with Smash</h2>
+        <p>
+          Built an end-to-end ML pipeline to predict the winner of Super Smash Bros Melee matches,
+          from replay filtering and cleaning to model training and evaluation.
+        </p>
+        <div class="project-tags">
+          <span>Python</span>
+          <span>Machine Learning</span>
+          <span>Data Cleaning</span>
+        </div>
+        <p class="project-links">
+          <a href="https://github.com/RiverMatsumoto/MachineLearningWithMelee" target="_blank">Repo</a>
+          <a href="https://www.youtube.com/watch?v=rqAENsoV8m0" target="_blank">Video</a>
+          <a href="https://docs.google.com/document/d/1RgIKeNxnsFe9RKdLdjGcb9w4bmiRxuVRLJc0QSRhgHw/edit" target="_blank">Writeup</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="images/projects/dungeon_crawler_game.png" alt="Dungeon crawler game screenshot" class="project-image" />
+      <div class="project-content">
+        <h2>Dungeon Crawler Game</h2>
+        <p>
+          Personal Unity dungeon crawler project focused on long-term architecture and RPG systems design,
+          including menu flow, scene-state boundaries, and global data management.
+        </p>
+        <div class="project-tags">
+          <span>C#</span>
+          <span>Unity</span>
+          <span>Game Development</span>
+        </div>
+        <p class="project-links">
+          <a href="https://github.com/RiverMatsumoto/ProjectLabyrinth" target="_blank">Repo</a>
+        </p>
+      </div>
+    </article>
+  </div>
+
+  <p class="home-link"><a href="/">Back Home</a></p>
+</section>
