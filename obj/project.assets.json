@@ -2141,11 +2141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/river/data/Portfolio/Portfolio.csproj",
+      "projectUniqueName": "/mnt/data/Portfolio/Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "/home/river/data/Portfolio/Portfolio.csproj",
+      "projectPath": "/mnt/data/Portfolio/Portfolio.csproj",
       "packagesPath": "/home/river/.nuget/packages/",
-      "outputPath": "/home/river/data/Portfolio/obj/",
+      "outputPath": "/mnt/data/Portfolio/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/river/.nuget/NuGet/NuGet.Config"
